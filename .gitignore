@@ -1,0 +1,29 @@
+# Dependencies — reinstall using npm
+node_modules/
+
+# Vite production build
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Local and temporary files
+*.local
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Test output
+coverage/
+
+# Editor-specific settings
+.vscode/
+.idea/
